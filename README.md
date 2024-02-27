@@ -1,4 +1,6 @@
-You can load this packages by doing:
+This function prints something that Maggie says.
+
+You can load this packages by running:
 ```
-devtools::install_github("mwalte10/demo.maggie")
+remotes::install_github("mwalte10/demo.maggie")
 ```
