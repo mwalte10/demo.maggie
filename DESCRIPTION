@@ -1,0 +1,11 @@
+Package: demo.maggie
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Maggie", 
+    family = "Walters", , "mwalters@ic.ac.uk", role = c("aut", "cre"))
+Description: Makes Maggie say something.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
