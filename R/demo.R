@@ -10,3 +10,19 @@
 maggie_says <- function(says){
   print(paste0('Maggie says ', says))
 }
+
+#' @importFrom rlang .data
+NULL
+
+#' get_words
+#'
+#'
+#' @return the first choice of words
+#' @export
+#'
+#' @examples
+#' get_words()
+get_words <- function(){
+  file <- system.file('extdata', 'data.csv',package = 'demo.maggie', mustWork = T)
+  data.table::fread(file) |> dplyr::distinct(words)
+}
